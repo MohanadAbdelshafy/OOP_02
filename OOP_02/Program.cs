@@ -287,6 +287,7 @@
     //        }
     //    }
     #endregion
+
         internal class Program
     {
         static void Main(string[] args)
@@ -300,6 +301,48 @@
             ////b)The child class is ExpressShipment
             ////c)It inherits the property TrackingCode(besides the baisc object functions)
             ////d)The inheritance reduces repition which reduces bugs and makes the code easier to mantain instead of having only a base class
+            #endregion
+            #region Main
+            //Console.Write("Enter Delivery Center Name: ");
+            //string name = Console.ReadLine();
+            //DeliveryCenter center = new DeliveryCenter(name);
+            //DeliveryAddress address = new DeliveryAddress("Cairo", "Tahrir", 15);
+
+            //StandardShipment s1 = new StandardShipment("SH001", "Laptop", 3, 80, address);
+            //ExpressShipment s2 = new ExpressShipment("SH002", "Mobile Phone", 2, 60, address, 30);
+            //InternationalShipment s3 = new InternationalShipment("SH003", "Television", 8, 120, address, "Germany", 100);
+            //Console.WriteLine();
+            //center.AddShipment(s1);
+            //center.AddShipment(s2);
+            //center.AddShipment(s3);
+            //center.PrintAllShipments();
+
+            //Console.Write("Enter Tracking Code to Search (e.g., SH001): ");
+            //string searchCode = Console.ReadLine();
+            //Shipment foundShipment = center[searchCode];
+            //if (foundShipment != null)
+            //{
+            //    Console.WriteLine("Shipment Found");
+            //    foundShipment.PrintShipment();
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Shipment not found.");
+            //}
+            //Console.Write("Enter Tracking Code to Remove (e.g., SH002): ");
+            //string removeCode = Console.ReadLine();
+
+            //if (center.RemoveShipment(removeCode))
+            //{
+            //    Console.WriteLine("Shipment Removed Successfully.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Shipment not found or could not be removed.");
+            //}
+            //Console.WriteLine("Remaining Shipments");
+            //center.PrintAllShipments();
+            //Console.ReadLine();
             #endregion
         }
     }
