@@ -200,8 +200,94 @@
     //    }
     //}
     #endregion
+    #region DeliveryCenter class
+    //public class DeliveryCenter
+    //{
+    //    public string CenterName { get; set; }
+    //    private Shipment[] shipments;
 
-    internal class Program
+    //    public DeliveryCenter(string name)
+    //    {
+    //        CenterName = name;
+    //        shipments = new Shipment[20];
+    //    }
+
+    //    public Shipment this[int index]
+    //    {
+    //        get
+    //        {
+    //            if (index >= 0 && index < shipments.Length)
+    //            {
+    //                return shipments[index];
+    //            }
+    //            return null;
+    //        }
+    //        set
+    //        {
+    //            if (index >= 0 && index < shipments.Length)
+    //            {
+    //                shipments[index] = value;
+    //            }
+    //        }
+    //    }
+
+    //    public Shipment this[string trackingCode]
+    //    {
+    //        get
+    //        {
+    //            for (int i = 0; i < shipments.Length; i++)
+    //            {
+    //                if (shipments[i] != null && shipments[i].TrackingCode == trackingCode)
+    //                {
+    //                    return shipments[i];
+    //                }
+    //            }
+    //            return null;
+    //        }
+    //    }
+
+    //    public bool AddShipment(Shipment shipment)
+    //    {
+    //        for (int i = 0; i < shipments.Length; i++)
+    //        {
+    //            if (shipments[i] == null)
+    //            {
+    //                shipments[i] = shipment;
+    //                Console.WriteLine("Shipment Added Successfully.");
+    //                return true;
+    //            }
+    //        }
+    //        return false;
+    //    }
+    //    public bool RemoveShipment(string trackingCode)
+    //    {
+    //        for (int i = 0; i < shipments.Length; i++)
+    //        {
+    //            if (shipments[i] != null && shipments[i].TrackingCode == trackingCode)
+    //            {
+    //                for (int j = i; j < shipments.Length - 1; j++)
+    //                {
+    //                    shipments[j] = shipments[j + 1];
+    //                }
+    //                shipments[shipments.Length - 1] = null;
+    //                return true;
+    //            }
+    //        }
+    //        return false;
+    //    }
+    //    public void PrintAllShipments()
+    //    {
+    //        Console.WriteLine($"\nDelivery Center : {CenterName}");
+    //        for (int i = 0; i < shipments.Length; i++)
+    //        {
+    //            if (shipments[i] != null)
+    //            {
+    //                shipments[i].PrintShipment();
+    //            }
+    //        }
+    //    }
+    #endregion
+        internal class Program
     {
         static void Main(string[] args)
         {
