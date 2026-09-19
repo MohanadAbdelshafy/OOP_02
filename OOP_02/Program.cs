@@ -134,6 +134,73 @@
     //    }
     //}
     #endregion
+    #region Inheritance
+    //public class StandardShipment : Shipment
+    //{
+    //    // Constructor Chaining
+    //    public StandardShipment(string trackingCode, string description, double weight, decimal deliveryFee, DeliveryAddress destination)
+    //        : base(trackingCode, description, weight, deliveryFee, destination)
+    //    {
+    //    }
+
+    //    public override void PrintShipment()
+    //    {
+    //        Console.WriteLine(" tandard Shipment");
+    //        base.PrintShipment();
+    //    }
+    //}
+
+
+    //public class ExpressShipment : Shipment
+    //{
+    //    public decimal ExtraFee { get; set; }
+
+    //    public override decimal EstimatedCost
+    //    {
+    //        get { return base.EstimatedCost + ExtraFee; }
+    //    }
+
+    //    public ExpressShipment(string trackingCode, string description, double weight, decimal deliveryFee, DeliveryAddress destination, decimal extraFee)
+    //        : base(trackingCode, description, weight, deliveryFee, destination)
+    //    {
+    //        ExtraFee = extraFee >= 0 ? extraFee : 0;
+    //    }
+
+    //    public override void PrintShipment()
+    //    {
+    //        Console.WriteLine("Express Shipment");
+    //        Console.WriteLine("Extra Fee: " + ExtraFee + " EGP");
+    //        base.PrintShipment();
+    //    }
+    //}
+
+    //public class InternationalShipment : Shipment
+    //{
+    //    public string DestinationCountry { get; set; }
+    //    public decimal CustomsFee { get; set; }
+
+    //    public override decimal EstimatedCost
+    //    {
+    //        get { return base.EstimatedCost + CustomsFee; }
+    //    }
+
+    //    public InternationalShipment(string trackingCode, string description, double weight, decimal deliveryFee, DeliveryAddress destination, string destinationCountry, decimal customsFee)
+    //        : base(trackingCode, description, weight, deliveryFee, destination)
+    //    {
+    //        DestinationCountry = string.IsNullOrWhiteSpace(destinationCountry) ? "Unknown" : destinationCountry;
+    //        CustomsFee = customsFee >= 0 ? customsFee : 0;
+    //    }
+
+    //    public override void PrintShipment()
+    //    {
+    //        Console.WriteLine("International Shipment");
+    //        Console.WriteLine("Destination Country: " + DestinationCountry);
+    //        Console.WriteLine("Customs Fee: " + CustomsFee + " EGP");
+    //        base.PrintShipment();
+    //    }
+    //}
+    #endregion
+
     internal class Program
     {
         static void Main(string[] args)
